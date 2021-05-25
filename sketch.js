@@ -46,6 +46,8 @@ function setup() {
 
 function draw() {
   background(bgImg);
+	
+  fairySound.play();
 
   star.x= starBody.position.x 
   star.y= starBody.position.y 
